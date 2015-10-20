@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitTransaction">
+        <ignore path="src/com/example/twocold/BaseActivity.java" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="NewApi" severity="ignore" />
+    <issue id="SetJavaScriptEnabled" severity="ignore" />
+    <issue id="ShowToast" severity="ignore" />
+</lint>

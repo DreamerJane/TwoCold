@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/profile_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:text="个人中心"/>
+    
+    <Button
+        android:id="@+id/baike_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:text="百度百科 "/>
+    
+    <Button
+        android:id="@+id/music_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="5dp"
+        android:text="专辑 — 十八禁"/>
+    
+    <Button
+        android:id="@+id/picture_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="5dp"
+        android:text="图片"/>
+     <Button
+        android:id="@+id/one_shop_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:text="ONE一个生活品牌"/>
+    
+    <Button
+        android:id="@+id/recommendation_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="5dp"
+        android:text="相关推荐"/>
+    
+    
+    <Button
+        android:id="@+id/setting_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:text="设置"/>
+    
+    <Button
+        android:id="@+id/about_info_btn"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:padding="20dp"
+        android:layout_marginTop="5dp"
+        android:text="关于"/>
+    
+</LinearLayout>
+</ScrollView>
